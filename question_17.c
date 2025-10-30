@@ -2,7 +2,7 @@
 
 int main() {
     double num1, num2, result;
-    char op, choice;
+    char op, choose;
     do {
         printf("Enter first number: ");
         scanf("%lf", &num1);
@@ -34,7 +34,7 @@ int main() {
                 printf("Invalid operator\n");
         }
         printf("Do you want to perform another calculation? (y/n): ");
-        scanf(" %c", &choice);
-    } while (choice == 'y' || choice == 'Y');
+        scanf(" %c", &choose);
+    } while (choose == 'y' || choose == 'Y');
     return 0;
 }
